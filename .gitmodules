@@ -1,3 +1,6 @@
 [submodule "ers-static"]
 	path = ers-static
 	url = ./ers-static
+[submodule "project-1-jeevanselva-ers-static"]
+	path = project-1-jeevanselva-ers-static
+	url = https://github.com/jeevanselva/project-1-jeevanselva-ers-static.git
