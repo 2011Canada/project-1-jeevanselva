@@ -23,7 +23,6 @@ public class AuthServlet extends HttpServlet {
 		response.setStatus(200);
 		response.setHeader("Content-Type", "application/json");
 		response.getWriter().write(om.writeValueAsString(currentUser));
-		System.out.println("This was called!");
 	}
 
 }
