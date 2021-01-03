@@ -71,7 +71,7 @@
     <servlet-class>com.revature.servlets.AllReimbursementServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>ResolveReimbursementServlet</servlet-name>
+    <servlet-name>AllReimbursementServlet</servlet-name>
     <url-pattern>/all</url-pattern>
   </servlet-mapping>
 </web-app>

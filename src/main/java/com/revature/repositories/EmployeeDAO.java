@@ -69,7 +69,7 @@ public class EmployeeDAO {
 				reimbursement.setAmount(result.getInt("reimb_amount"));
 				reimbursement.setDescription(result.getString("reimb_description"));
 				reimbursement.setStatus(result.getString("reimb_status"));
-				reimbursement.setType(result.getString("reimb_status"));
+				reimbursement.setType(result.getString("reimb_type"));
 				reimbursement.setDateSubmitted(result.getTimestamp("reimb_submitted"));
 				reimbursement.setDateResolved(result.getTimestamp("reimb_resolved"));
 				reimbursement.setResolverId(result.getInt("reimb_resolver"));

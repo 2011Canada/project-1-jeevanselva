@@ -28,6 +28,7 @@ public class SubmitReimbursementServlet extends HttpServlet {
 		response.setStatus(200);
 		response.setHeader("Content-Type", "application/json");
 		response.getWriter().write(om.writeValueAsString(r));
+		System.out.println("Submit was called");
 	}
 
 }

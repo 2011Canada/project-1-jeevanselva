@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.revature.models.ListOfReimbursements;
 import com.revature.models.Resolved;
 import com.revature.services.ManagerService;
 
@@ -17,6 +18,15 @@ public class ResolveReimbursementServlet extends HttpServlet {
 	public ResolveReimbursementServlet() {
 		super();
 
+	}
+
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
+		ManagerService service = new ManagerService();
+		ListOfReimbursements list = service.getPendingReimbursements();
+		response.setStatus(200);
+		response.setHeader("Content-Type", "application/json");
+		response.getWriter().write(om.writeValueAsString(list));
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

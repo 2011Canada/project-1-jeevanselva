@@ -16,6 +16,11 @@ public class ManagerService {
 		return list;
 	}
 
+	public ListOfReimbursements getPendingReimbursements() {
+		ListOfReimbursements list = dao.readPendingReimbursements();
+		return list;
+	}
+
 	public void resolveReimbursement(Resolved reimbursement) {
 		dao.updateReimbursementStatus(reimbursement);
 	}
