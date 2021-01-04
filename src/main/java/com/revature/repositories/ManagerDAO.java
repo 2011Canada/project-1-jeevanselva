@@ -55,7 +55,6 @@ public class ManagerDAO {
 	public ListOfReimbursements readPendingReimbursements() {
 
 		ListOfReimbursements list = new ListOfReimbursements();
-		Reimbursement reimbursement = new Reimbursement();
 
 		try {
 			Connection newConnection = ConnectionFactory.getNewConnection();
@@ -66,6 +65,7 @@ public class ManagerDAO {
 			ResultSet result = reimbursementStatement.executeQuery();
 
 			while (result.next()) {
+				Reimbursement reimbursement = new Reimbursement();
 				reimbursement.setAuthorId(result.getInt("reimb_author"));
 				reimbursement.setReimbursementId(result.getInt("reimb_id"));
 				reimbursement.setAmount(result.getInt("reimb_amount"));

@@ -3,7 +3,7 @@ package com.revature.models;
 public class Resolved {
 	int reimbursementId;
 	String status;
-	int ResolverId;
+	int resolverId;
 
 	public Resolved() {
 		super();
@@ -27,16 +27,16 @@ public class Resolved {
 	}
 
 	public int getResolverId() {
-		return ResolverId;
+		return resolverId;
 	}
 
 	public void setResolverId(int resolverId) {
-		ResolverId = resolverId;
+		this.resolverId = resolverId;
 	}
 
 	@Override
 	public String toString() {
-		return "Resolved [reimbursementId=" + reimbursementId + ", status=" + status + ", ResolverId=" + ResolverId
+		return "Resolved [reimbursementId=" + reimbursementId + ", status=" + status + ", resolverId=" + resolverId
 				+ "]";
 	}
 
