@@ -25,9 +25,45 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Getting Started
 
+**Requirements
+
+* Java IDE
+  * ex Eclipse
+* Maven
+* Servlet container
+  * Tomcat
+* SQL client software
+  * ex DBeaver
+* PostgreSQL database
+
 **Step 1**
 
 `git clone https://github.com/2011Canada/project-1-jeevanselva.git`
+
+**Step 2**
+
+> execute ERS.sql
+
+**Step 3**
+
+> import as Existing Maven Project
+
+
+**Step 4**
+
+> Update Maven project
+
+
+**Step 5**
+
+> Set up run configuration to run on server
+
+**Step 6**
+> Modify environment variables with database credentials
+
+**Step 7**
+> run the application
+
 
 ## License
 This project uses the following license: GNU General Public License
