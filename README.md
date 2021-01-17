@@ -10,13 +10,24 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 * Servlet api - 3.1
 * PostgreSQL - 42.2.18
 * Tomcat - 9.0.41
+* React - 17.0
+* JavaScript - ES6
+* HTML - 5
+* CSS - 3
 
 ## Features
 
+* Users can log in
 * Employees can submit reimbursements                             
 * Employees can view past history of reimbursements
 * Finance Managers can aprrove/deny reimbursements
+* Finace Managers can view all reimbursements
 
 ## Getting Started
 
-git clone https://github.com/2011Canada/project-1-jeevanselva.git
+**Step 1**
+
+`git clone https://github.com/2011Canada/project-1-jeevanselva.git`
+
+## License
+This project uses the following license: GNU General Public License
