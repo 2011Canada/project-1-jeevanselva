@@ -25,6 +25,8 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Getting Started
 
+### Server-side
+
 **Requirements
 
 * Java IDE
@@ -62,8 +64,35 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 > Modify environment variables with database credentials
 
 **Step 7**
-> run the application
+> run the application on the server
 
+
+### Client-side
+
+**Requirements
+
+* NodeJS
+* NPM
+
+**Step 1**
+
+`git clone https://github.com/jeevanselva/project-1-jeevanselva-ers-static.git`
+
+**Step 2**
+
+> cd into the application on a terminal and excute
+`npm install`
+
+**Step 3**
+`npm start`
+**Step 4**
+> access http://localhost:3000 on web browser
+
+## Usage
+
+> Log-in
+
+![alt text](https://github.com/2011Canada/project-1-jeevanselva/blob/main/snapshot.png?raw=true)
 
 ## License
 This project uses the following license: GNU General Public License
