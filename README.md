@@ -69,7 +69,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ### Client-side
 
-**Requirements
+** Requirements
 
 * NodeJS
 * NPM
@@ -90,12 +90,12 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Usage
 
-# User can log in according to credentials stored in the database
-# User will be routed to manager or employee user interface depending on role
-# Employee can view all past reimbursements
-# Employee can submit new reimbursements
-# Manager can view all reimbursements of all employees
-# Manager can approve or deny new reimbursements
+* User can log in according to credentials stored in the database
+* User will be routed to manager or employee user interface depending on role
+* Employee can view all past reimbursements
+* Employee can submit new reimbursements
+* Manager can view all reimbursements of all employees
+* Manager can approve or deny new reimbursements
 
 ## License
 This project uses the following license: GNU General Public License
