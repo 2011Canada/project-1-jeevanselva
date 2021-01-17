@@ -38,34 +38,31 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
   * ex DBeaver
 * PostgreSQL database
 
-**Step 1**
+#### Step 1
 
 `git clone https://github.com/2011Canada/project-1-jeevanselva.git`
 
-**Step 2**
+#### Step 2
 
 > execute ERS.sql
 
-**Step 3**
+#### Step 3
 
 > import as Existing Maven Project
 
-
-**Step 4**
+#### Step 4
 
 > Update Maven project
 
-
-**Step 5**
+#### Step 5
 
 > Set up run configuration to run on server
 
-**Step 6**
+#### Step 6
 > Modify environment variables with database credentials
 
-**Step 7**
+#### Step 7
 > run the application on the server
-
 
 ### Client-side
 
@@ -74,18 +71,19 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 * NodeJS
 * NPM
 
-**Step 1**
+#### Step 1
 
 `git clone https://github.com/jeevanselva/project-1-jeevanselva-ers-static.git`
 
-**Step 2**
+#### Step 2
 
 > cd into the application on a terminal and execute
 `npm install`
 
-**Step 3**
+#### Step 3
 `npm start`
-**Step 4**
+
+#### Step 4
 > access http://localhost:3000 on web browser
 
 ## Usage
