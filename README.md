@@ -27,7 +27,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ### Server-side
 
-** Requirements
+** Requirements **
 
 * Java IDE
   * ex Eclipse
@@ -69,7 +69,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ### Client-side
 
-** Requirements
+** Requirements **
 
 * NodeJS
 * NPM
