@@ -27,7 +27,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ### Server-side
 
-**Requirements
+** Requirements
 
 * Java IDE
   * ex Eclipse
@@ -80,7 +80,7 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 **Step 2**
 
-> cd into the application on a terminal and excute
+> cd into the application on a terminal and execute
 `npm install`
 
 **Step 3**
@@ -90,9 +90,12 @@ The Expense Reimbursement System (ERS) will manage the process of reimbursing em
 
 ## Usage
 
-> Log-in
-
-![alt text](https://github.com/2011Canada/project-1-jeevanselva/blob/main/snapshot.png?raw=true)
+# User can log in according to credentials stored in the database
+# User will be routed to manager or employee user interface depending on role
+# Employee can view all past reimbursements
+# Employee can submit new reimbursements
+# Manager can view all reimbursements of all employees
+# Manager can approve or deny new reimbursements
 
 ## License
 This project uses the following license: GNU General Public License
